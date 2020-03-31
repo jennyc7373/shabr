@@ -1,0 +1,22 @@
+body{
+    background-image: url("https://i.pinimg.com/originals/9b/2e/8f/9b2e8f6c07562a1ea2c8b37df2f48af3.jpg");
+    background-size: 100%;
+    background-repeat:no-repeat;
+    
+}
+
+.center-heading{
+    text-align:center;
+    color:white;
+    font-size:50px;
+    font-family:"Courier New";
+    font-weight:normal;
+    opacity: 0.6;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
