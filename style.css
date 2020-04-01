@@ -1,8 +1,10 @@
 body{
     background-image: url("https://i.pinimg.com/originals/9b/2e/8f/9b2e8f6c07562a1ea2c8b37df2f48af3.jpg");
-    background-size: 100%;
-    background-repeat:no-repeat;
-    
+    /*min-height: 500px;*/
+    background-attachment: fixed; /*image wont scroll with content*/
+    background-position: center; 
+    background-repeat: no-repeat; /*as screen size get smaller the background will repeat--use it so background won't repeat*/
+    background-size: cover; /*no matter what size the screeen is the background will stay where it is*/
 }
 
 .center-heading{
@@ -19,4 +21,33 @@ body{
 }
 .text-left{
     text-align: left;
+}
+
+
+img{
+    width:500px;
+    height:400px;
+}
+
+
+@media (min-width:992px){/*large*/
+    .text-right .text-left h2{
+        font-size: 100px;
+        
+    }
+    
+}
+@media (min-width:768px){/*med*/
+    h2{
+        font-size: 60px;
+        
+    }
+    
+}
+@media (min-width:576px){/*small*/
+    h2{
+        font-size: 70px;
+        
+    }
+    
 }
