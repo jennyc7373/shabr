@@ -5,13 +5,14 @@ body{
     background-position: center; 
     background-repeat: no-repeat; /*as screen size get smaller the background will repeat--use it so background won't repeat*/
     background-size: cover; /*no matter what size the screeen is the background will stay where it is*/
+    font-family: "Courier New";
 }
 
 .center-heading{
     text-align:center;
     color:white;
     font-size:50px;
-    font-family:"Courier New";
+    /*font-family:"Courier New";*/
     font-weight:normal;
     opacity: 0.6;
 }
@@ -30,23 +31,24 @@ img{
 }
 
 
-@media (min-width:992px){/*large*/
-    .text-right .text-left h2{
-        font-size: 100px;
+/*@media (min-width:992px){*/
+/*    h3{*/
+/*        font-size: 80px;*/
         
-    }
+/*    }*/
     
-}
-@media (min-width:768px){/*med*/
-    h2{
-        font-size: 60px;
+/*}*/
+/*@media (min-width:768px){*/
+/*    h3{*/
+/*        font-size: 100px;*/
         
-    }
+/*    }*/
     
-}
-@media (min-width:576px){/*small*/
-    h2{
-        font-size: 70px;
+/*}*/
+
+@media (min-width:576px){
+    h1{
+        font-size: 10px;
         
     }
     
