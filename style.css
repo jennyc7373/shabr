@@ -8,13 +8,19 @@ body{
     font-family: "Courier New";
 }
 
+.opacity-back{
+    background:rgba(255,255,255,0.1);
+    border-radius: 5%;
+    text-align: center;
+}
+
 .center-heading{
     text-align:center;
     color:white;
     font-size:50px;
     /*font-family:"Courier New";*/
     font-weight:normal;
-    opacity: 0.6;
+    opacity: 0.8;
 }
 
 .text-right{
@@ -53,3 +59,10 @@ img{
     }
     
 }
+
+
+
+/*.px-2 {*/
+/*  padding-left: 10rem ;*/
+/*  padding-right: 10rem ;*/
+/*}*/
