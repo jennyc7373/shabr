@@ -36,7 +36,7 @@ img{
     height:400px;
 }
 
-
+/*Media query*/
 /*@media (min-width:992px){*/
 /*    h3{*/
 /*        font-size: 80px;*/
@@ -61,8 +61,17 @@ img{
 }
 
 
+/*Spacing*/
+.px-2 {
+  padding-left: 10rem ;
+  padding-right: 10rem ;
+}
 
-/*.px-2 {*/
-/*  padding-left: 10rem ;*/
-/*  padding-right: 10rem ;*/
-/*}*/
+/*Cards*/
+.card{
+    
+}
+
+.card-body{
+    
+}
