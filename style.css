@@ -8,28 +8,42 @@ body{
     font-family: "Courier New";
 }
 
-.opacity-back{
+.opacity-background{
     background:rgba(255,255,255,0.1);
     border-radius: 5%;
     text-align: center;
 }
 
-.center-heading{
+/*Text(utilities)*/
+.text-sm-center{
     text-align:center;
     color:white;
     font-size:50px;
-    /*font-family:"Courier New";*/
     font-weight:normal;
-    opacity: 0.8;
 }
-
-.text-right{
+.text-sm-right{
     text-align: right;
+    color:white;
 }
-.text-left{
+.text-sm-left{
     text-align: left;
+    color:white;
 }
 
+
+
+.container{
+    padding:;
+}
+
+/*Jumbotron(component)*/
+.jumbotron h{
+    font-size:35px;
+}
+
+.borders{
+    
+}
 
 img{
     width:500px;
@@ -60,18 +74,16 @@ img{
     
 }
 
-
-/*Spacing*/
-.px-2 {
-  padding-left: 10rem ;
-  padding-right: 10rem ;
-}
-
 /*Cards*/
 .card{
-    
+    border-style:solid;
+    border-color: white;
+    background:rgba(255,255,255,0.1); ;
 }
 
 .card-body{
-    
+    padding-left:15px;
+    padding-right:15px;
+    padding-top:20px;
+    padding-bottom:20px;
 }
