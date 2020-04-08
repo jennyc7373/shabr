@@ -51,28 +51,34 @@ img{
 }
 
 /*Media query*/
-/*@media (min-width:992px){*/
-/*    h3{*/
-/*        font-size: 80px;*/
-        
-/*    }*/
-    
-/*}*/
-/*@media (min-width:768px){*/
-/*    h3{*/
-/*        font-size: 100px;*/
-        
-/*    }*/
-    
-/*}*/
-
-@media (min-width:576px){
+@media (min-width:768px){
     h1{
-        font-size: 10px;
+        font-size:100px;
         
+    }
+    h3{
+        font-size:80px;
+    }
+    h5{
+        font-size:60px;
     }
     
 }
+
+@media (min-width:576px){
+    h1{
+        font-size:100px;
+        
+    }
+    h3{
+        font-size:80px;
+    }
+    h5{
+        font-size:60px;
+    }
+    
+}
+
 
 /*Cards*/
 .card{
