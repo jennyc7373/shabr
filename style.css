@@ -1,18 +1,16 @@
 body{
     background-image: url("https://i.pinimg.com/originals/9b/2e/8f/9b2e8f6c07562a1ea2c8b37df2f48af3.jpg");
-    /*min-height: 500px;*/
     background-attachment: fixed; /*image wont scroll with content*/
     background-position: center; 
     background-repeat: no-repeat; /*as screen size get smaller the background will repeat--use it so background won't repeat*/
     background-size: cover; /*no matter what size the screeen is the background will stay where it is*/
     font-family: "Courier New";
-    margin: 50px;
+    margin:50px;
 }
 
 .opacity-background{
     background:rgba(255,255,255,0.1);
     border-radius:20px;
-    text-align:center;
 }
 
 img{
@@ -20,28 +18,33 @@ img{
     height:400px;
 }
 
+h6{
+    text-decoration: underline;
+}
+
 
 
 .text{
-    text-align:center;
     color:white;
     font-size:80px;
     font-weight:normal;
 }
-.text-md{
+.text1{
     text-align:center;
     color:white;
-}
-
-
-
-/*Jumbotron(component)*/
-.jumbotron h{
-    font-size:35px;
-}
-
-.borders{
+    margin-top:200px;
     
+}
+.text2{
+    text-align:center;
+    color:white;
+    margin-bottom:200px;
+}
+
+
+
+/*Jumbotron*/
+.jumbotron h{
 }
 
 
@@ -54,12 +57,13 @@ img{
     h5{
         font-size:30px;
     }
+    h6{
+        font-size:20px;
+    }
     p{
         font-size:20px;
     }
-    
 }
-
 /*@media (min-width:576px){*/
 /*    h1{*/
 /*        font-size:80px;*/
@@ -78,33 +82,22 @@ img{
 
 /*Grid*/
 /*.container{*/
-/*    padding:;*/
+/*    margin:auto;*/
+/*    padding:auto;*/
 /*}*/
 
-.row{
-    margin: 200px;
-}
+/*.row{*/
+/*}*/
 
 
 
 /*Cards*/
 .card{
-    border-style:solid;
-    border-color: white;
     background:rgba(255,255,255,0.1); 
 }
 .card-body{
-    /*padding-left:15px;*/
-    /*padding-right:15px;*/
-    /*padding-top:20px;*/
-    /*padding-bottom:20px;*/
-    /*margin: auto;*/
-    margin-left: auto;
-    margin-right: auto;
-    margin-top:15px;
-    margin-bottom:15px;
-    /*display: block;*/
-    
+    margin-top:25px;
+    /*margin-bottom:25px;*/
+    /*padding:auto;*/
 }
-
 
